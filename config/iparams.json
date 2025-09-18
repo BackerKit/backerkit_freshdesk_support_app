@@ -1,0 +1,16 @@
+{
+  "callback_url": {
+    "display_name": "Callback URL",
+    "description": "The URL to load in the iframe, please include https://",
+    "type": "text",
+    "required": true,
+    "visible": true
+  },
+  "value_for_sha256": {
+    "display_name": "Secret",
+    "description": "The shared secret to ensure secure communication",
+    "type": "text",
+    "required": true,
+    "visible": true
+  }
+}

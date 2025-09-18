@@ -1,0 +1,24 @@
+{
+  "platform-version": "2.3",
+  "product": {
+    "freshdesk": {
+      "location": {
+        "ticket_background": {
+          "url": "ticket_background.html",
+          "icon": "api64.svg"
+        },
+        "ticket_sidebar": {
+          "url": "ticket_sidebar.html",
+          "icon": "api64.svg"
+        }
+      }
+    }
+  },
+  "app": {
+    "tracking_id": "aqmqcizowryuys1hfa93"
+  },
+  "engines": {
+    "node": "18.18.2",
+    "fdk": "9.6.0"
+  }
+}
