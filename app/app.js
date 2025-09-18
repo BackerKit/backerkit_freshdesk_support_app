@@ -23,6 +23,7 @@ async function init() {
     client.instance.resize({ height: "500px" });
 
     const iframe = document.getElementById("callbackFrame");
-    iframe.src = `${callbackUrl}?secret=${hashHex}&domain_name=${domainName}&customer[email]=${requesterEmail}`;
+    iframe.src =
+      `${callbackUrl}?secret=${hashHex}&domain_name=${domainName}&customer[email]=${requesterEmail}`;
   });
 }

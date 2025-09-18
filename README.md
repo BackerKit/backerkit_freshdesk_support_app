@@ -1,8 +1,22 @@
-## Your First App
+# Backerkit Freshdesk Support App
 
-This app displays the name of the requester of a freshdesk ticket in the ticket_sidebar placeholder
+This app displays the name of the requester of a freshdesk ticket in the
+ticket_sidebar placeholder
 
-### Files and Folders
+## Usage
+
+```bash
+brew tap freshworks-developers/homebrew-tap
+brew install fdk
+fdk run
+# visit a freshdesk ticket
+# preview the output
+# build the artifact for the application upload
+fdk pack
+```
+
+## Files and Folders
+
     .
     ├── README.md                 A file for your future self and developer friends to learn about app
     ├── app                       A folder to place all assets required for frontend components
@@ -17,4 +31,6 @@ This app displays the name of the requester of a freshdesk ticket in the ticket_
     │   └── iparams.json
     └── manifest.json             A JSON file holding meta data for app to run on platform
 
-Explore [more of app sample apps](https://community.developers.freshworks.com/t/freshworks-sample-apps/3604) on the Freshworks github respository.
+Explore
+[more of app sample apps](https://community.developers.freshworks.com/t/freshworks-sample-apps/3604)
+on the Freshworks github respository.
